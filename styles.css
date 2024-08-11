@@ -1,0 +1,498 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    padding: 18px;
+}
+
+.options{
+    position: relative;
+    text-decoration: none;
+    left: -8%;
+} 
+
+.options a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: "ubuntu";
+    font-weight: 400;
+    color: #BC3711;
+}
+
+.options a:hover{
+    color: aliceblue;
+    animation-name: anime;
+    animation-duration: 0.2s;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.logo{
+    font-size: 35px;
+    color:#BC3711;
+    font-family:"ubuntu";
+    font-weight: 500;
+    font-style: normal;
+    padding: 0 25px;
+}
+.logo:hover{
+    color: #D65920;
+}
+
+.icon i{
+    margin-left: 25px;
+    font-size: 20px;
+    padding: 16px;
+    color: #BC3711;
+}
+
+li a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.icon i:hover{
+    color: aliceblue;
+}
+
+.head{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    margin-top: 30px;
+}
+
+.left{
+    margin-left: 80px;
+}
+.left p:nth-child(1){
+    font-size: 50px;
+    color:#BC3711;
+    font-weight: 400;
+    font-style: italic;
+    margin-left: 8px;
+}
+
+.left h1{
+    font-size: 100px;
+    color: white;
+    font-family: "ubuntu";
+}
+
+.left p:nth-child(3){
+    font-size: 30px;
+    color: #D65920;
+    font-family: "ubuntu";
+    font-weight: 400;
+}
+
+.left button{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #D65920;
+    border-radius: 18px;
+    margin-top: 18px;
+    font-size: 18px;
+    font-family: "ubuntu";
+}
+
+.left button:hover{
+    color: white;
+    background-color: #D65920;
+    cursor: pointer;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 15px;
+}
+
+.right i{
+    margin:15px 2px;
+    font-size: 18px;
+}
+
+.right i:hover{
+    color: #9BAA30;
+}
+
+/************ new ************/
+
+.content{
+    display: flex;
+    width: 100%;
+    height: 100vh; 
+    justify-content: space-evenly;
+}
+.left1{
+    width: 38%;
+    margin:15% 5%;
+}
+
+.left1 h1{
+    font-size: 60px;
+    font-family: "ubuntu";
+    color: #9BAA30;
+}
+
+.left1 h4{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: rgb(34, 27, 27);
+    font-family: arial;
+    margin-top: 20px;
+}
+
+.left1 p{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #D65920;
+    margin-top:15px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.img1{
+    width: 70vh;
+    height: 70vh;
+    background-image: url("food1.png");
+    background-size: cover;
+    margin-top: 20%;
+}
+.left1 button{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #D65920;
+    border-radius: 18px;
+    margin-top: 18px;
+    font-size: 18px;
+    font-family: "ubuntu";
+}
+
+.left1 button:hover{
+    color: #ffff;
+    background-color: #9BAA30;
+    cursor: pointer;
+}
+/********************************************/
+
+.content2{
+    width: 100%;
+    height: 100vh;
+}
+.col-box{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.col-box2{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    width: 23%;
+    height: 100%;
+    padding: 2rem 1rem;
+}
+
+.img-1{
+    width: 100%;
+    height: 50%;
+    background-image: url(f1.jpg);
+    background-size: cover;
+    margin-top: 20px;
+    border-radius: 3px;
+    transition: 0.8s ease;
+}
+.img-1:hover{
+    transform: scale(1.050);
+}
+.img-2{
+    width: 100%;
+    height: 50%;
+    background-image: url(f2.jpg);
+    background-size: cover;
+    margin-top: 20px;
+    border-radius: 3px;
+    transition: 0.8s ease;
+}
+.img-2:hover{
+    transform: scale(1.050);
+}
+
+.img-3{
+    width: 100%;
+    height: 50%;
+    background-image: url(f3.jpg);
+    background-size: cover;
+    margin-top: 20px;
+    border-radius: 3px;
+    transition: 0.8s ease;
+}
+.img-3:hover{
+    transform: scale(1.050);
+}
+
+.img-4{
+    width: 100%;
+    height: 50%;
+    background-image: url(f4.jpg);
+    background-size: cover;
+    background-position: -16%;
+    margin-top: 20px;
+    border-radius: 3px;
+    transition: 0.8s ease;
+}
+.img-4:hover{
+    transform: scale(1.050);
+}
+
+.img-5{
+    width: 100%;
+    height: 50%;
+    background-image: url(f5.jpg);
+    background-size: cover;
+    background-position: -16%;
+    margin-top: 20px;
+    border-radius: 3px;
+    transition: 0.8s ease;
+}
+.img-5:hover{
+    transform: scale(1.050);
+}
+.img-6{
+    width: 100%;
+    height: 50%;
+    background-image: url(f6.jpg);
+    background-size: cover;
+    background-position: -2%;
+    margin-top: 20px;
+    border-radius: 3px;
+    transition: 0.8s ease;
+}
+.img-6:hover{
+    transform: scale(1.050);
+}
+
+.box p{
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: "ubuntu";
+}
+
+.box button{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 18px;
+    margin-top: 18px;
+    font-size: 18px;
+    font-family: "ubuntu";
+}
+
+.box button:hover{
+    color: #ffffff;
+    background-color: #9BAA30;
+    cursor: pointer;
+}
+
+.box h2{
+    font-size: 25px;
+    font-family: "ubuntu";
+}
+/**************************************************/
+
+.content3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.frm{
+    width: 100%;
+    height: 25vh;
+    padding: 20px 60px;
+}
+.frm h1{
+    margin-top: 20px;
+    font-size: 80px;
+    font-family: "Lumanosimo";
+}
+.frm h4{
+    font-size: 30px;
+    font-family: "Lumanosimo";
+}
+.dp{
+    width: 50%;
+    height: 57vh;
+}
+.fd-png{
+    width: 90%;
+    height: 100%;
+    background-image: url(fd.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.col-x{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+.reg{
+    width: 100%;
+    height: 60vh;
+    padding: 20px;
+    padding-right: 30px;
+}
+.reg h1{
+    font-size: 40px;
+    font-family: "ubuntu";
+    color: #ffffff;
+}
+.reg input{
+    display: flex;
+    width: 50vh;
+    height: 5vh; 
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 25px;
+    font-size: 20px;
+    font-family: "ubuntu";
+    margin-left: 8px;
+    outline: none;
+    border: none;
+}
+
+.reg textarea{
+    width: 50vh;
+    height: 10vh;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "ubuntu";
+    padding: 25px;
+    margin-left: 8px;
+    margin-top: 25px;
+    outline: none;
+    border: none;
+}
+.fr{
+    display: flex;
+}
+
+.sr{
+    display: flex;
+}
+.tr{
+    display: flex;
+}
+
+.reg button{
+    width: 30vh;
+    height: 6vh;
+    font-size: 24px;
+    font-family: "ubuntu";
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: none;
+    color: #ffffff;
+    background-color: #D65920;
+}
+
+.reg button:hover{
+    background-color: #BC3711;
+    color:#ffffff;
+}
+/***********************************************************/
+
+.content4{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.end{
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    bottom: 0;
+    background-color: #9bac17;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rev{
+    width: 100%;
+    height: 40vh;
+    padding: 4rem;
+}
+
+.rev h1{
+    font-size: 40px;
+    font-family: "ubuntu";
+}
+
+.rev h3{
+    margin-top: 6px;
+    font-family: "ubuntu";
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.rev p{
+    margin-top: 10px;
+    font-family: "ubuntu";
+    font-weight: 400;
+}
+table{
+    width: 60%;
+    height: 30vh;
+}
+th{
+    font-size:20px;
+    color:white ;
+    font-family: "ubuntu";
+    padding-bottom: 15px;
+}
+th ,tr ,td{
+    left: 20%;
+    height: 10%;
+    font-family: "ubuntu";
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+}
+td{
+    text-align: center;
+}
