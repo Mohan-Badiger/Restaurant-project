@@ -1,4 +1,4 @@
-# My Website
+# Resturant
 
 A responsive and interactive website built using HTML, CSS, and JavaScript.
 
