@@ -14,7 +14,7 @@ A responsive and interactive website built using HTML, CSS, and JavaScript.
 
 ## Project Highlights
 - Organized and modular codebase for easy maintenance.
-- Compatible with all modern browsers.
+- Compatible with all Modern browsers.
 - Includes a landing page, navigation menu, and additional interactive components.
 
 
