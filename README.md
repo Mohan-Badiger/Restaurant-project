@@ -1,6 +1,6 @@
 # Resturant Website
 
-A responsive and interactive website built using HTML, CSS, and JavaScript.
+A responsive and interactive website built using MERN.
 
 ## Features
 - **Responsive Design**: The website is optimized for various screen sizes, ensuring a seamless user experience on mobile, tablet, and desktop devices.
